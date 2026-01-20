@@ -10,9 +10,7 @@
  */
 
 import { createRoot } from 'react-dom/client';
-
 import Content from './Content';
-
 import '@assets/styles/index.css';
 
 const container = document.createElement('div');

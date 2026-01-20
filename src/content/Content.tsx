@@ -1,10 +1,5 @@
 /* eslint-disable react/self-closing-comp */
-/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable react/button-has-type */
-/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import { JSX } from 'react';
 
 export default function Content(): JSX.Element {
@@ -50,7 +45,7 @@ export default function Content(): JSX.Element {
             Secondary
           </button>
           <button type='button' className='btn btn-accent btn-outline'>
-            Accent
+            Accent-btn btn-accent btn-outline
           </button>
           <button type='button' className='btn btn-neutral'>
             Neutral
@@ -65,7 +60,7 @@ export default function Content(): JSX.Element {
             Secondary
           </button>
           <button type='button' className='btn btn-accent'>
-            Accent
+            Accent-btn btn-accent
           </button>
           <button type='button' className='btn btn-ghost'>
             Ghost
